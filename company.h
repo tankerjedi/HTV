@@ -3,8 +3,8 @@
 class company
 {
 	public:
-		int x;
-		int y;
+		int x,y,range,price;
+
 		void jobbralep();
 
 };
