@@ -1,1 +1,1 @@
-Hotelling model with product range. Alpha state.
+Hotelling model with product range and convex space. Alpha state.

@@ -3,8 +3,10 @@
 class space
 {
 	public:
-		int x,y,z,number_of_inhabitant;
-
+		int points[10][1][1];
+		int number_of_inhabitant;
+		
+		space();
 		void new_company();
 
 };
