@@ -15,4 +15,6 @@ class space
 		space();
 		void new_company();
 
+		double total_profit(company& company_i);
+
 };
