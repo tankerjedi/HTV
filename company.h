@@ -14,8 +14,8 @@ class company
 
 		double revenue(const double& quantity, const int& consumer_x, const int& consumer_y);
 		double cost(const double& quantity, const int& consumer_x, const int& consumer_y);
-		double variable_cost(const double& quantity, const int& consumer_x, const int& consumer_y);
+		double variable_cost(const double& quantity);
 		double transport_cost(const double& quantity, const int& consumer_x, const int& consumer_y);
-		double fix_cost(const double& quantity, const int& consumer_x, const int& consumer_y);
+		double fix_cost();
 
 };
