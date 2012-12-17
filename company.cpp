@@ -28,7 +28,7 @@ double company::variable_cost(const double& quantity)
 
 double company::transport_cost(const double& quantity, const int& consumer_x, const int& consumer_y)
 	{
-	//return 2 * pow( pow( x - consumer_x,2) + pow(  y - consumer_y,2) ,0.5);
+	return  sqrt( (double) pow( x - consumer_x,2) + pow(  y - consumer_y,2));
 	}
 
 double company::fix_cost()
