@@ -9,6 +9,11 @@ void company::jobbralep()
 }
 
 
+double company::profit(const double& quantity, const int& consumer_x, const int& consumer_y)
+	{
+	return company::revenue(quantity,consumer_x,consumer_y) - company::cost(quantity,consumer_x,consumer_y);
+	}
+
 double company::revenue(const double& quantity, const int& consumer_x, const int& consumer_y)
 
 	{
@@ -17,7 +22,7 @@ double company::revenue(const double& quantity, const int& consumer_x, const int
 
 double company::cost(const double& quantity, const int& consumer_x, const int& consumer_y)
 	{
-	return 0;
+	return company::variable_cost(quantity) + company::transport_cost(quantity,consumer_x,consumer_y) + company::fix_cost();
 	}
 
 
