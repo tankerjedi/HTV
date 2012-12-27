@@ -6,9 +6,10 @@ class company
 		int x,y,variety,price;
 
 		void jobbralep();
-		void relocate(const int& company_x, const int& shop_y);
-
 		double profit(const double& quantity, const int& consumer_x, const int& consumer_y);
+		
+		int relocate(int *company_x,int *company_y ,const int& other_shop_x, const int& other_shop_y);
+
 		
 	private:
 
