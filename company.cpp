@@ -44,6 +44,7 @@ double company::fix_cost()
 
 int company::relocate(int *company_x,int *company_y ,const int& other_shop_x, const int& other_shop_y)
 	{
+	*company_x = 100;
 	return 0;
 	}
 
