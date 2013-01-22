@@ -8,8 +8,3 @@ int i;
 	points[i][0][0] = 1;
 	}
 }
-
-void new_company()
-{
-
-}
